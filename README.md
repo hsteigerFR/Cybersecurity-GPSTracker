@@ -1,6 +1,6 @@
 # Cybersecurity - GPS Tracker
 
-Authors : Hugo Steiger, Celian Muller-Machi, Baptiste Brunet de la Charie
+Authors : Hugo Steiger, Celian Muller-Machi, Baptiste Brunet de la Charie  
 Mentor : Laurent Ciarletta
 
 This project was led as part of the "Security of Cyberphysical Systems" course at Mines Nancy Computer Science departement. The goal of the project was to exploit the vulnerabilities of a system as well as their user's. My team chose to work on an Android GPS Tracker malware that can act with being seen by the user. Social engineering and email identity theft (for phishing) were also studied as part of the project. Here is an illustration of how the malware works  :
