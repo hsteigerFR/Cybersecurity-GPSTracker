@@ -3,6 +3,8 @@
 Authors : Hugo Steiger, Celian Muller-Machi, Baptiste Brunet de la Charie  
 Mentor : Laurent Ciarletta
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project was led as part of the "Security of Cyberphysical Systems" course at Mines Nancy Computer Science departement. The goal of the project was to exploit the vulnerabilities of a system as well as their user's. My team chose to work on an Android GPS Tracker malware that can act with being seen by the user. Social engineering and email identity theft (for phishing) were also studied as part of the project. Here is an illustration of how the malware works  :
 
 ![Strategy](https://user-images.githubusercontent.com/106969232/180282909-3de55630-6f57-40a1-ba79-b8be774cf5cf.JPG)
@@ -14,6 +16,8 @@ The foreground service will regularly call the phone geolocation service to retr
 As part of the Android security protocol, some permissions must be enabled by the user to make this strategy work properly, or the geolocation will not work on the long run. This is where social engineering comes in. The code introduced in this repo can be added to the code of a "clasic" app, that will genuinely ask for the appropriate permissions, and make it a malware. The only hint the user may have is the low battery life of the phone once the GPS trakcer is activated, and the geolocation icon on the upper right of the phone.
 
 <img src="https://user-images.githubusercontent.com/106969232/180289339-b606fc80-e2f2-4dcc-9ad5-d1519fba71d0.png" width="300" height="345">
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 HOW TO USE :
 - git pull this repo.
